@@ -1225,27 +1225,29 @@ spacer[part="overflow-end-indicator"]
         -moz-box-align: center !important;
         filter: var(--special-main-outer-shadow) var(--special-additional-outer-shadow) !important;
         z-index: 1 !important;
-        position: fixed !important;
+        position: absolute !important;
         width: 100% !important;
         background-color: transparent !important;
+        transition-duration: 0.2s;
     }
 
     #urlbar-container,
     #search-container
     {
         padding-block: 0px !important;
+        transition-duration: 0.2s;
     }
 
     #urlbar-container
     {
         --urlbar-container-height: var(--tab-min-height) !important;
-        transition-duration: 0.2s;
     }
 
     #urlbar
     {
         --urlbar-toolbar-height: var(--tab-min-height) !important;
         transition-duration: 0.2s;
+        width: 50% !mportant;
     }
        
     #urlbar:active, #urlbar:focus, #urlbar-container {
