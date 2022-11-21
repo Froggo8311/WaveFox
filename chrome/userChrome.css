@@ -1199,8 +1199,6 @@ spacer[part="overflow-end-indicator"]
         position: relative !important;
         border-bottom: none !important;
         -moz-window-dragging: drag !important;
-        background-color: transparent !important;
-        width: 100% !important;
     }
 
     #titlebar
@@ -1221,10 +1219,14 @@ spacer[part="overflow-end-indicator"]
     {
         min-width: fit-content !important;
         margin: calc(var(--tab-block-margin) + var(--drag-space, 0px)) var(--tab-block-margin) var(--tab-block-margin) !important;
+        margin-left: 2px !important;
         border-radius: var(--tab-border-radius) !important;
         -moz-box-align: center !important;
         filter: var(--special-main-outer-shadow) var(--special-additional-outer-shadow) !important;
         z-index: 1 !important;
+        position: absolute !important;
+        width: 100% !important;
+        background-color: transparent !important;
     }
 
     #urlbar-container,
