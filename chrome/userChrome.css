@@ -1242,8 +1242,8 @@ spacer[part="overflow-end-indicator"]
         transition-duration: 0.2s;
     }
        
-    #urlbar:active {
-        width: 50% !important;
+    #urlbar:active, #urlbar:focus {
+        width: 100% !important;
     }
 
     /* -------------------- Bookmarks Bar -------------------- */
