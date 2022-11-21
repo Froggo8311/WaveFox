@@ -1234,6 +1234,7 @@ spacer[part="overflow-end-indicator"]
     #urlbar-container
     {
         --urlbar-container-height: var(--tab-min-height) !important;
+        transition-duration: 0.2s;
     }
 
     #urlbar
@@ -1242,7 +1243,7 @@ spacer[part="overflow-end-indicator"]
         transition-duration: 0.2s;
     }
        
-    #urlbar:active, #urlbar:focus {
+    #urlbar:active, #urlbar:focus, #urlbar-container {
         width: 100% !important;
     }
 
