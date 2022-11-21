@@ -1196,9 +1196,12 @@ spacer[part="overflow-end-indicator"]
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
-        position: relative !important;
+        position: fixed !important;
         border-bottom: none !important;
         -moz-window-dragging: drag !important;
+        background-color: transparent !important;
+        width: 100% !important;
+        pointer-events: none !important;
     }
 
     #titlebar
