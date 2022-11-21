@@ -1239,6 +1239,11 @@ spacer[part="overflow-end-indicator"]
     #urlbar
     {
         --urlbar-toolbar-height: var(--tab-min-height) !important;
+        transition-duration: 0.2s;
+    }
+       
+    #urlbar:active {
+        width: 50% !important;
     }
 
     /* -------------------- Bookmarks Bar -------------------- */
